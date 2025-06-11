@@ -18,10 +18,10 @@ export default function Navigation() {
 
   const navLinks = [
     { href: '/', label: 'Home' },
-    { href: '/properties', label: 'Available Spaces' },
+    { href: 'overview', label: 'Overview'},
     { href: '/about', label: 'About' },
-    { href: '/facilities', label: 'Facilities' },
     { href: '/contact', label: 'Contact' },
+    { href: '/careers', label: 'Careers' },
   ]
 
   return (
